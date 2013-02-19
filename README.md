@@ -2,10 +2,11 @@
 
 An inplementation of [TodoMVC](http://todomvc.com) using HLisp and Javelin.
 
-* See the demo [here](http://micha.github.com/todofrp/).
-* Or look at the source code...
+## Demo
 
-# Development
+* See the demo [here](http://micha.github.com/todofrp/).
+
+## Development
 
 Install [Leiningen2](https://github.com/technomancy/leiningen)
 
