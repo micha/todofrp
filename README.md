@@ -1,5 +1,12 @@
 # TodoFRP
 
+An inplementation of [TodoMVC](http://todomvc.com) using HLisp and Javelin.
+
+* See the demo [here](http://micha.github.com/todofrp/).
+* Or look at the source code...
+
+# Development
+
 Install [Leiningen2](https://github.com/technomancy/leiningen)
 
 Install dependencies:
