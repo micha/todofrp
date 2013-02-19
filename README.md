@@ -1,10 +1,7 @@
 # TodoFRP
 
 An inplementation of [TodoMVC](http://todomvc.com) using HLisp and Javelin.
-
-## Demo
-
-* See the demo [here](http://micha.github.com/todofrp/).
+[View the demo here](http://micha.github.com/todofrp/).
 
 ## Development
 
