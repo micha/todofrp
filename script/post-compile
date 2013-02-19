@@ -1,7 +1,1 @@
-#!/usr/bin/env bash
 
-INDIR=resources/public/
-HOST=bicycle.thefreshdiet.com
-OUTDIR=src/checkout/todomvc-hlisp/resources/public/
-
-#rsync --delete -vcrae ssh --exclude .git/ "$INDIR" "${HOST}:${OUTDIR}"
