@@ -38,12 +38,10 @@
 
 ;; public ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-(def route (cell "#/"))
-
-(.setInterval js/window #(reset! route (.-hash (.-location js/window))))
+(def route (j/route* 50 "#/"))
 
 (let [dfl-state (vec (repeat 50 {:editing false :completed true :text ""}))] 
-  (def state (sa/local-storage (cell 'dfl-state) ::store)))
+  (def state (sa/local-storage (cell dfl-state) ::store)))
 
 (def editing-new  (cell ""))
 (def live-ones    (cell (filter (complement deleted?) state)))
