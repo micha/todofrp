@@ -25838,6 +25838,6 @@ todo.hlispinit = function hlispinit() {
     }());
     return G__18935__18936
   }())), hlisp.env.footer.call(null, cljs.core.ObjMap.fromObject(["\ufdd0'id"], {"\ufdd0'id":"info"}), hlisp.env.p.call(null, hlisp.env.$text.call(null, "Double-click to edit a todo")), hlisp.env.p.call(null, hlisp.env.$text.call(null, "Created by "), hlisp.env.a.call(null, cljs.core.ObjMap.fromObject(["\ufdd0'shape", "\ufdd0'href"], {"\ufdd0'shape":"rect", "\ufdd0'href":"http://github.com/micha/todofrp/"}), hlisp.env.$text.call(null, "micha"))), hlisp.env.p.call(null, hlisp.env.$text.call(null, 
-  "Part of "), hlisp.env.a.call(null, cljs.core.ObjMap.fromObject(["\ufdd0'shape", "\ufdd0'href"], {"\ufdd0'shape":"rect", "\ufdd0'href":"http://todomvc.com"}), hlisp.env.$text.call(null, "TodoMVC"))))), hlisp.env.script.call(null, cljs.core.ObjMap.fromObject(["\ufdd0'src"], {"\ufdd0'src":"../assets/base.js"})), hlisp.env.script.call(null, cljs.core.ObjMap.fromObject(["\ufdd0'src"], {"\ufdd0'src":"js/app.js"}))], true))
+  "Part of "), hlisp.env.a.call(null, cljs.core.ObjMap.fromObject(["\ufdd0'shape", "\ufdd0'href"], {"\ufdd0'shape":"rect", "\ufdd0'href":"http://todomvc.com"}), hlisp.env.$text.call(null, "TodoMVC"))))), hlisp.env.script.call(null, cljs.core.ObjMap.fromObject(["\ufdd0'src"], {"\ufdd0'src":"assets/base.js"})), hlisp.env.script.call(null, cljs.core.ObjMap.fromObject(["\ufdd0'src"], {"\ufdd0'src":"js/app.js"}))], true))
 };
 goog.exportSymbol("todo.hlispinit", todo.hlispinit);
